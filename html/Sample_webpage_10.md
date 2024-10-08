@@ -1,11 +1,63 @@
-```html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultimate fitness gym</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: flex;
+            margin: 0 10px;
+        }
+
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+
+        section, aside {
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+        form label, form input, form textarea, form button {
+            display: block;
+            margin: 10px 0;
+        }
+        
+    </style>
 </head>
 <body>
     <header>
@@ -136,5 +188,3 @@
 
 </body>
 </html>
-
-```
